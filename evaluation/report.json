@@ -1,0 +1,279 @@
+{
+  "circuits": 1295,
+  "eval_circuits": 1281,
+  "solvable": 1183,
+  "lofo": {
+    "v0 两步模型": {
+      "points": 1183,
+      "top1": 0.728,
+      "within10": 0.786,
+      "fail": 13,
+      "fail_rate": 0.011,
+      "total_ratio": 1.593,
+      "geo_regret_ok": 1.142,
+      "p90_regret_ok": 1.43,
+      "unsolvable": 98,
+      "reject_correct": 0,
+      "flag_correct": 24,
+      "flag_false": 13,
+      "reject_false": 0,
+      "by_band": {
+        "2–19": {
+          "points": 424,
+          "top1": 0.741,
+          "within10": 0.792,
+          "fail": 0,
+          "fail_rate": 0.0,
+          "total_ratio": 1.858,
+          "geo_regret_ok": 1.165,
+          "p90_regret_ok": 1.76,
+          "unsolvable": 0,
+          "reject_correct": 0,
+          "flag_correct": 0,
+          "flag_false": 0,
+          "reject_false": 0
+        },
+        "20–34": {
+          "points": 327,
+          "top1": 0.713,
+          "within10": 0.78,
+          "fail": 12,
+          "fail_rate": 0.0367,
+          "total_ratio": 2.442,
+          "geo_regret_ok": 1.222,
+          "p90_regret_ok": 1.46,
+          "unsolvable": 22,
+          "reject_correct": 0,
+          "flag_correct": 4,
+          "flag_false": 3,
+          "reject_false": 0
+        },
+        "35–1000": {
+          "points": 432,
+          "top1": 0.727,
+          "within10": 0.785,
+          "fail": 1,
+          "fail_rate": 0.0023,
+          "total_ratio": 1.087,
+          "geo_regret_ok": 1.066,
+          "p90_regret_ok": 1.27,
+          "unsolvable": 76,
+          "reject_correct": 0,
+          "flag_correct": 20,
+          "flag_false": 10,
+          "reject_false": 0
+        }
+      }
+    }
+  },
+  "lofo_components": {
+    "c1": {
+      "n": 773,
+      "n_fail": 92,
+      "auc": 0.981,
+      "acc": 0.952,
+      "time_median_factor": 1.28,
+      "time_p90_factor": 3.31,
+      "time_median_factor_clean": 1.16
+    },
+    "c2": {
+      "n": 1281,
+      "n_fail": 142,
+      "auc": 0.796,
+      "acc": 0.887,
+      "time_median_factor": 1.2,
+      "time_p90_factor": 3.47,
+      "time_median_factor_clean": 1.15
+    },
+    "c3": {
+      "n": 1281,
+      "n_fail": 439,
+      "auc": 0.885,
+      "acc": 0.815,
+      "time_median_factor": 1.4,
+      "time_p90_factor": 7.13,
+      "time_median_factor_clean": 1.35
+    },
+    "c3b": {
+      "n": 1280,
+      "n_fail": 920,
+      "auc": 0.974,
+      "acc": 0.917,
+      "time_median_factor": 1.52,
+      "time_p90_factor": 14.09,
+      "time_median_factor_clean": 1.29
+    },
+    "c4": {
+      "n": 1281,
+      "n_fail": 633,
+      "auc": 0.999,
+      "acc": 0.988,
+      "time_median_factor": 1.09,
+      "time_p90_factor": 1.52,
+      "time_median_factor_clean": 1.03
+    },
+    "c5": {
+      "n": 773,
+      "n_fail": 123,
+      "auc": 0.992,
+      "acc": 0.965,
+      "time_median_factor": 1.3,
+      "time_p90_factor": 4.18,
+      "time_median_factor_clean": 1.16
+    },
+    "stim": {
+      "n": 211,
+      "n_fail": 0,
+      "auc": null,
+      "acc": 1.0,
+      "time_median_factor": 1.1,
+      "time_p90_factor": 1.21,
+      "time_median_factor_clean": 1.14
+    }
+  },
+  "lofo_choice_counts": {
+    "c2": 605,
+    "c5": 348,
+    "stim": 154,
+    "c3": 120,
+    "c1": 50,
+    "c3b": 4
+  },
+  "random5": {
+    "v0 两步模型": {
+      "points": 1183,
+      "top1": 0.814,
+      "within10": 0.879,
+      "fail": 2,
+      "fail_rate": 0.0017,
+      "total_ratio": 1.084,
+      "geo_regret_ok": 1.043,
+      "p90_regret_ok": 1.14,
+      "unsolvable": 98,
+      "reject_correct": 0,
+      "flag_correct": 91,
+      "flag_false": 0,
+      "reject_false": 0,
+      "by_band": {
+        "2–19": {
+          "points": 424,
+          "top1": 0.83,
+          "within10": 0.884,
+          "fail": 0,
+          "fail_rate": 0.0,
+          "total_ratio": 1.238,
+          "geo_regret_ok": 1.056,
+          "p90_regret_ok": 1.14,
+          "unsolvable": 0,
+          "reject_correct": 0,
+          "flag_correct": 0,
+          "flag_false": 0,
+          "reject_false": 0
+        },
+        "20–34": {
+          "points": 327,
+          "top1": 0.817,
+          "within10": 0.905,
+          "fail": 2,
+          "fail_rate": 0.0061,
+          "total_ratio": 1.155,
+          "geo_regret_ok": 1.029,
+          "p90_regret_ok": 1.08,
+          "unsolvable": 22,
+          "reject_correct": 0,
+          "flag_correct": 18,
+          "flag_false": 0,
+          "reject_false": 0
+        },
+        "35–1000": {
+          "points": 432,
+          "top1": 0.796,
+          "within10": 0.854,
+          "fail": 0,
+          "fail_rate": 0.0,
+          "total_ratio": 1.032,
+          "geo_regret_ok": 1.04,
+          "p90_regret_ok": 1.16,
+          "unsolvable": 76,
+          "reject_correct": 0,
+          "flag_correct": 73,
+          "flag_false": 0,
+          "reject_false": 0
+        }
+      }
+    }
+  },
+  "random5_components": {
+    "c1": {
+      "n": 773,
+      "n_fail": 92,
+      "auc": 0.997,
+      "acc": 0.977,
+      "time_median_factor": 1.15,
+      "time_p90_factor": 1.82,
+      "time_median_factor_clean": 1.09
+    },
+    "c2": {
+      "n": 1281,
+      "n_fail": 142,
+      "auc": 0.998,
+      "acc": 0.988,
+      "time_median_factor": 1.08,
+      "time_p90_factor": 1.51,
+      "time_median_factor_clean": 1.06
+    },
+    "c3": {
+      "n": 1281,
+      "n_fail": 439,
+      "auc": 0.999,
+      "acc": 0.984,
+      "time_median_factor": 1.11,
+      "time_p90_factor": 1.7,
+      "time_median_factor_clean": 1.09
+    },
+    "c3b": {
+      "n": 1280,
+      "n_fail": 920,
+      "auc": 0.998,
+      "acc": 0.976,
+      "time_median_factor": 1.12,
+      "time_p90_factor": 2.36,
+      "time_median_factor_clean": 1.08
+    },
+    "c4": {
+      "n": 1281,
+      "n_fail": 633,
+      "auc": 1.0,
+      "acc": 0.991,
+      "time_median_factor": 1.04,
+      "time_p90_factor": 1.27,
+      "time_median_factor_clean": 1.02
+    },
+    "c5": {
+      "n": 773,
+      "n_fail": 123,
+      "auc": 0.997,
+      "acc": 0.978,
+      "time_median_factor": 1.16,
+      "time_p90_factor": 1.98,
+      "time_median_factor_clean": 1.1
+    },
+    "stim": {
+      "n": 211,
+      "n_fail": 0,
+      "auc": null,
+      "acc": 1.0,
+      "time_median_factor": 1.04,
+      "time_p90_factor": 1.18,
+      "time_median_factor_clean": 1.17
+    }
+  },
+  "random5_choice_counts": {
+    "c2": 545,
+    "c5": 367,
+    "stim": 166,
+    "c3": 147,
+    "c1": 31,
+    "c3b": 25
+  }
+}

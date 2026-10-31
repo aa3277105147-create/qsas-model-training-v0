@@ -1,0 +1,37 @@
+{
+  "features": [
+    "log_n",
+    "log_gates",
+    "log_depth",
+    "is_clifford",
+    "log_cut",
+    "gates_per_q",
+    "depth_per_q",
+    "cut_frac"
+  ],
+  "candidates": [
+    "c1",
+    "c2",
+    "c3",
+    "c3b",
+    "c4",
+    "c5",
+    "stim"
+  ],
+  "dense_max": 34,
+  "timeout_s": 600.0,
+  "const_p": {
+    "stim": 1.0
+  },
+  "monotone": {
+    "log_n": 1,
+    "log_gates": 1,
+    "log_depth": 1,
+    "log_cut": 1
+  },
+  "inferred_weight": 0.5,
+  "flag_below": 0.3,
+  "policy": "argmin over allowed candidates of predicted_time + (1 - P_ok) * timeout_s",
+  "data": "600s CPU baseline, training-audited-600s.csv (generation ok rows)",
+  "target": "feasibility within 600 s; log10 total wall time (container start to exit)"
+}
